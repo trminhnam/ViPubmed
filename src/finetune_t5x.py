@@ -35,7 +35,8 @@ from clu import metric_writers
 import jax
 from jax import random
 from jax.experimental import multihost_utils
-from jax.experimental.global_device_array import GlobalDeviceArray
+# from jax.experimental.global_device_array import GlobalDeviceArray
+import jax.Array as GlobalDeviceArray
 import jax.numpy as jnp
 import numpy as np
 import seqio
